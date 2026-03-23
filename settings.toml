@@ -1,0 +1,26 @@
+[folders]
+data_root = './data'
+temp_root = './temp'
+preproceded_folder = './data/pre_processed_entries'
+
+
+[audio]
+sr = 16000
+n_mfcc = 40
+n_fft=512
+
+[args]
+pitch = [-3, 3]
+speed = [0.9, 1.1]
+highpass = [50,2000]
+lowpass = [200,6000]
+noise_level = [0.001, 0.05]
+gain = [-12, 12]
+
+
+[labelstudio]
+url = '000.000.000.000'
+port = 0000
+username = 'username'
+password = 'password'
+token = '40 char token from label studio'

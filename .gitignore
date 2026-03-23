@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#dataset
+dataset/
+data/
+
+test.ipynb
+settings.toml
+# Log files
+*.log
+
+# Model and checkpoint files
+*.pt
+
+# Image files
+*.png
+
+# Data and configuration files
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
