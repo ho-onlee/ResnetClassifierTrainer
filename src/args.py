@@ -6,7 +6,7 @@ import numpy as np
 from dynaconf import Dynaconf
 import numpy.typing as npt
 
-settings = Dynaconf(settings_files=["../settings.toml"])
+settings = Dynaconf(settings_files=["../settings.toml", "../settings.local.toml"])
 
 def random_gain(x, db_range=settings.args.gain):
     gain = random.uniform(*db_range)

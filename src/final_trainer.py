@@ -39,7 +39,7 @@ import numpy.typing as npt
 import logging
 
 
-settings = Dynaconf(settings_files=["../settings.toml"])
+settings = Dynaconf(settings_files=["../settings.toml", "../settings.local.toml"])
 logger = logging.getLogger(__name__)
 
 class indiv_trainer:    

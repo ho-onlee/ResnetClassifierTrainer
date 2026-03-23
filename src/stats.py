@@ -4,7 +4,7 @@ from dynaconf import Dynaconf
 import matplotlib.pyplot as plt
 import logging
 
-settings = Dynaconf(settings_files=["../settings.toml"])
+settings = Dynaconf(settings_files=["../settings.toml", "../settings.local.toml"])
 
 logger = logging.getLogger(__name__)
 

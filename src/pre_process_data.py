@@ -16,7 +16,7 @@ import numpy as np
 import src.args as args
 
 logger = logging.getLogger(__name__)
-settings = Dynaconf(settings_files=["../settings.toml"])
+settings = Dynaconf(settings_files=["../settings.toml", "../settings.local.toml"])
 
 
 class EntriesTorchDataset(Dataset):
